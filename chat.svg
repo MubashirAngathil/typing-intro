@@ -114,22 +114,22 @@
     @keyframes msg-3 {
       0% {
         opacity: 0;
-        transform: translate(10px, 125px);
+        transform: translate(10px, 100px);
       }
       100% {
         opacity: 1;
-        transform: translate(10px, 120px);
+        transform: translate(10px, 95px);
       }
     }
 
     @keyframes msg-4 {
       0% {
         opacity: 0;
-        transform: translate(10px, 197px);
+        transform: translate(10px, 155px);
       }
       100% {
         opacity: 1;
-        transform: translate(10px, 192px);
+        transform: translate(10px, 150px);
       }
     }
 
@@ -248,10 +248,10 @@
 
   </g>
 
-  <!-- Hi, I'm Jason -->
+  <!-- Hi, I'm Name -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
-    <rect width="133" height="42" rx="18.0355" />
-    <text x="15" y="27">Hi, I'm Jason</text>
+    <rect width="230" height="42" rx="18.0355" />
+    <text x="15" y="27">Hi, I'm Mubashir Angathil</text>
   </g>
 
   <!-- typing 2 -->
@@ -274,13 +274,12 @@
 
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
-    <rect width="439" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="15" y="27">I live in Columbus, Ohio where it’s supposed to be</text>
-    <text x="15" y="50">87° F (31° C) and <tspan class="emoji">⛈</tspan> today.</text>
+    <rect width="150" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">I live in India</text>
   </g>
 
   <!-- typing 3 -->
-  <g transform="translate(10, 120)" class="typing-3">
+  <g transform="translate(10,95)" class="typing-3">
   <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
   <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
   <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -298,14 +297,13 @@
   </g>
 
   <!-- Work ... -->
-  <g transform="translate(10, 120)" class="msg-3">
-    <rect width="439" height="66.1302" rx="18.0355" class="bubble" />
-    <text x="15" y="27">I’m a product designer. I used to work at GitHub,</text>
-    <text x="15" y="50">but I’ve been at PlanetScale for over 1 year now.</text>
+  <g transform="translate(10,95)" class="msg-3">
+    <rect width="439" height="45" rx="18.0355" class="bubble" />
+    <text x="15" y="27">I’m a Software Developer. I used to work at GitHub</text>
   </g>
 
   <!-- typing 4 -->
-  <g transform="translate(10, 192)" class="typing-4">
+  <g transform="translate(10, 145)" class="typing-4">
     <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
     <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
     <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -323,16 +321,18 @@
   </g>
 
   <!-- Twitter -->
-  <g transform="translate(10, 192)" class="msg-4">
-    <rect width="513" height="42" rx="18.0355" class="bubble" />
-    <text x="15" y="27">
-      You can find me on Twitter at
-      <a xlink:href="https://twitter.com/jasonlong">https://twitter.com/jasonlong</a>
+  <g transform="translate(10, 145)" class="msg-4">
+    <rect width="355" height="66" rx="18.0355" class="bubble" />
+    <text x="15" y="28">
+      You can find me on LinkedIn at 
+      <a xlink:href="www.linkedin.com/in/mubashir-angathil" target='_blank'>
+        <tspan y='1.4cm' x='.5cm'>
+        www.linkedin.com/in/mubashir-angathil </tspan></a>
     </text>
   </g>
 
   <!-- typing 5 -->
-  <g transform="translate(10, 240)" class="typing-5">
+  <g transform="translate(10, 215)" class="typing-5">
   <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
   <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
   <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -350,13 +350,13 @@
   </g>
 
   <!-- Thanks -->
-  <g transform="translate(10, 240)" class="msg-5">
+  <g transform="translate(10, 215)" class="msg-5">
     <rect width="225" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">Thanks for stopping by</text>
   </g>
 
   <!-- typing 6 -->
-  <g transform="translate(10, 288)" class="typing-6">
+  <g transform="translate(10, 260)" class="typing-6">
   <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
   <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
   <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -374,8 +374,8 @@
   </g>
 
   <!-- Have a great... -->
-  <g transform="translate(10, 288)" class="msg-6">
-    <rect width="220" height="42" rx="18.0355" class="bubble" />
-    <text x="15" y="27">Have a great Friday! <tspan class="emoji">👋</tspan></text>  
+  <g transform="translate(10, 260)" class="msg-6">
+    <rect width="{dayBubbleWidth}" height="42" rx="18.0355" class="bubble" />
+    <text x="15" y="27">Have a great {todayDay}! <tspan class="emoji">👋</tspan></text>  
   </g>
 </svg>
