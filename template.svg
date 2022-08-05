@@ -250,7 +250,7 @@
 
   <!-- Hi, I'm Jason -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
-    <rect width="200" height="42" rx="18.0355" />
+    <rect width="230" height="42" rx="18.0355" />
     <text x="15" y="27">Hi, I'm Mubashir Angathil</text>
   </g>
 
@@ -325,7 +325,7 @@
     <rect width="513" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">
       You can find me on LinkedIn at
-      <a xlink:href="https://twitter.com/jasonlong">https://twitter.com/mubzyr_ashraf</a>
+      <a xlink:href="www.linkedin.com/in/mubashir-angathil">MR <img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></a>
     </text>
   </g>
 
