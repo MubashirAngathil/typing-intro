@@ -248,7 +248,7 @@
 
   </g>
 
-  <!-- Hi, I'm Jason -->
+  <!-- Hi, I'm Name -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
     <rect width="230" height="42" rx="18.0355" />
     <text x="15" y="27">Hi, I'm Mubashir Angathil</text>
@@ -279,7 +279,7 @@
   </g>
 
   <!-- typing 3 -->
-  <g transform="translate(10, 120)" class="typing-3">
+  <g transform="translate(10, 48)" class="typing-3">
   <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
   <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
   <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -297,7 +297,7 @@
   </g>
 
   <!-- Work ... -->
-  <g transform="translate(10, 120)" class="msg-3">
+  <g transform="translate(10, 48)" class="msg-3">
     <rect width="439" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I’m a Software Developer. I used to work at GitHub,</text>
   </g>
@@ -325,7 +325,7 @@
     <rect width="513" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">
       You can find me on LinkedIn at
-      <a xlink:href="www.linkedin.com/in/mubashir-angathil" target='_blank'>linkedIn.MubashirAngathil </a>
+      <a xlink:href="www.linkedin.com/in/mubashir-angathil" target='_blank'>www.linkedin.com/in/mubashir-angathil</a>
     </text>
   </g>
 
