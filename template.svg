@@ -322,16 +322,17 @@
 
   <!-- Twitter -->
   <g transform="translate(10, 145)" class="msg-4">
-    <rect width="500" height="50" rx="18.0355" class="bubble" />
-    <text x="15" y="27">
-      You can find me on LinkedIn at
+    <rect width="355" height="66" rx="18.0355" class="bubble" />
+    <text x="15" y="28">
+      You can find me on LinkedIn at 
       <a xlink:href="www.linkedin.com/in/mubashir-angathil" target='_blank'>
-         www.linkedin.com/in/mubashir-angathil</a>
+        <tspan y='1.4cm' x='.5cm'>
+        www.linkedin.com/in/mubashir-angathil </tspan></a>
     </text>
   </g>
 
   <!-- typing 5 -->
-  <g transform="translate(10, 240)" class="typing-5">
+  <g transform="translate(10, 215)" class="typing-5">
   <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
   <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
   <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -349,13 +350,13 @@
   </g>
 
   <!-- Thanks -->
-  <g transform="translate(10, 240)" class="msg-5">
+  <g transform="translate(10, 215)" class="msg-5">
     <rect width="225" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">Thanks for stopping by</text>
   </g>
 
   <!-- typing 6 -->
-  <g transform="translate(10, 288)" class="typing-6">
+  <g transform="translate(10, 260)" class="typing-6">
   <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
   <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
   <circle cx="3.54547" cy="41.9547" r="3.54547" class="bubble" />
@@ -373,7 +374,7 @@
   </g>
 
   <!-- Have a great... -->
-  <g transform="translate(10, 288)" class="msg-6">
+  <g transform="translate(10, 260)" class="msg-6">
     <rect width="{dayBubbleWidth}" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">Have a great {todayDay}! <tspan class="emoji">👋</tspan></text>  
   </g>
